@@ -1,0 +1,37 @@
+先说结论：
+1 理论落地《D2L》 + 《Build a Large Language Model (from Scratch)》
+2 系统架构《AI Engineering》 (Chip Huyen)
+3 前沿应用《The LLM Engineering Handbook》 + 关注最新的 Agent 论文
+
+在 2026 年从事 AI 研发工作，行业背景已经从单纯的“模型训练”转向了大模型工程化（LLM Engineering）、智能体（Agents）以及端到端系统设计。
+以下是推荐的进阶书单：
+1. 深度学习与大模型底层（必读：打通任督二脉）
+有 PRML 的基础之后，直接攻克最核心的架构：
+
+《Build a Large Language Model (from Scratch)》 (Sebastian Raschka, 2024/2025)
+
+理由： 2026 年研发的基本功。这本书教你用 PyTorch 从零实现 Transformer、分词器、预训练到微调的全过程。
+
+《Dive into Deep Learning》 (D2L.ai)
+
+理由： 极其推荐其在线动态版本。它将数学公式与 PyTorch/Jax 代码完美结合，适合你将 PRML 中的概率模型转化成代码直觉。
+
+2. AI 工程化与系统设计（必读：研发的分水岭）
+在 2026 年，单纯调包已经没有竞争力，AI Engineer 是目前最急需的研发岗位。
+
+《AI Engineering: Building Applications with Foundation Models》 (Chip Huyen, 2025)
+
+理由： Chip Huyen 是 ML 系统领域的顶级专家。这本书聚焦于如何围绕基础模型（Foundation Models）构建可靠的系统，涵盖评估、实时性、上下文管理等研发痛点。
+
+《Designing Machine Learning Systems》 (Chip Huyen)
+
+理由： 即使是 2026 年，这本书关于数据流水线、模型监控、特征工程的逻辑依然是 AI 研发的底层框架。
+
+3. LLM Stack 与智能体（进阶：2026 的技术前沿）
+《The LLM Engineering Handbook》 (Paul Iusztin & Maxime Labonne, 2025)
+
+理由： 深入讲解向量数据库（Vector DBs）、RAG（检索增强生成）、长文本处理等 2026 年 AI 研发的标配技术栈。
+
+《Building Agentic AI Systems》 (2025 新书)
+
+理由： 2026 年是 Agent（智能体） 爆发的一年。研发人员必须掌握如何让 LLM 具备规划、工具使用和自我反思的能力。
